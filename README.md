@@ -1,13 +1,6 @@
-# Lab 09 - RAG Avançado (Optimized)
+# Lab 09 - RAG Avançado
 
 Implementação de um pipeline RAG (Retrieval-Augmented Generation) com suporte a HyDE, indexação HNSW e re-ranking com Cross-Encoders.
-
-## 🚀 Melhorias Recentes
-
-- **LLM Integrado:** Migrado de OpenAI para **Google Gemini** para a geração do documento hipotético (HyDE).
-- **Performance:** Carregamento de modelos (Bi-Encoder e Cross-Encoder) otimizado para ocorrer apenas uma vez no startup.
-- **Persistência de Índice:** O índice HNSW agora é persistido em disco (`index.faiss`), evitando reconstruções demoradas.
-- **Interface Interativa:** Loop de consulta contínuo no terminal.
 
 ## 🛠️ Como Executar
 
